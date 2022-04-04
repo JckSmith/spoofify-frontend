@@ -1,17 +1,36 @@
-.App {
-  text-align: center;
+
+a:link { color: gray; } a:visited { color:black; } a:hover { color: purple; } a:active { color: teal; }
+a:link { text-decoration: none; }
+
+*{background-color: lightgreen;}
+
+*{text-align: center;}
+*{font-size: large;}
+*{list-style: none;}
+
+.songs li{
+  margin: 1rem;
+  border:2px solid #282c34;
+}
+.artists li{
+  margin: 1rem;
+  border:2px solid #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.nav-links {
+  display: flex;
+  margin-top: 1rem;
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-links a {
+  text-decoration: none;
+  margin: 1rem;
+  
 }
+
+
 
 .App-header {
   background-color: #282c34;
@@ -20,19 +39,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: larger;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
